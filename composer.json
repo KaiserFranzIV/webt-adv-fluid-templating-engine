@@ -1,0 +1,23 @@
+{
+    "name": "bernh/webt-adv-fluid-templating-engine",
+    "autoload": {
+        "psr-4": {
+            "Bernh\\WebtAdvFluidTemplatingEngine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KaiserFranzIV",
+            "email": "bmattausch2@gmail.com"
+        }
+    ],
+    "require": {
+        "typo3/fluid": "^3.0",
+        "typo3fluid/fluid": "^4.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

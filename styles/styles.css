@@ -1,0 +1,92 @@
+.div1 {
+    background-color: #add8e6;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.div2 {
+    background-color: #ff0500;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.div0 {
+    background-color: #90ee90;
+    color: darkgreen;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.div1 div, .div2 div, .div0 div {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Neue Styles für die .hotel-card */
+.hotel-card {
+    background-color: #f4f4f4; /* Helles Grau als Hintergrund */
+    color: #333; /* Dunkelgrau für Text */
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    margin: 20px;
+    text-align: center;
+    transition: all 0.3s ease; /* Sanfte Übergänge bei Hover */
+}
+
+.hotel-card:hover {
+    background-color: #e0e0e0; /* Leicht dunklerer Hintergrund bei Hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); /* Leichtes Heben bei Hover */
+}
+
+/* Styles für Hotelname (h2) */
+.hotel-card h2 {
+    font-size: 2em;
+    color: #007acc; /* Blau für den Hotelname */
+    margin-bottom: 10px;
+}
+
+/* Styles für Sternebewertung (h5) */
+.hotel-card h5 {
+    font-size: 1.2em;
+    color: #ff9900; /* Goldfarbe für Sternebewertung */
+    margin-bottom: 15px;
+}
+
+/* Styles für die Beschreibung des Hotels (p) */
+.hotel-card p {
+    font-size: 1em;
+    color: #666; /* Hellgrau für den Beschreibungstext */
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+/* Responsive Design für kleinere Bildschirme */
+@media (max-width: 768px) {
+    .hotel-card {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .hotel-card h2 {
+        font-size: 1.8em;
+    }
+
+    .hotel-card h5 {
+        font-size: 1em;
+    }
+
+    .hotel-card p {
+        font-size: 0.9em;
+    }
+}
